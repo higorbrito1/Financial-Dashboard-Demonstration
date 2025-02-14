@@ -1,4 +1,4 @@
-# Dashboard Financeiro - Business Case  
+# Dashboard Financeiro - Demonstração
 Repositório contendo um Dashboard Financeiro desenvolvido no Power BI como parte do curso de imersão da Karine Lago. O projeto fornece insights financeiros estratégicos.
 
 ✔ Receitas, Despesas e Lucro
@@ -15,7 +15,7 @@ Repositório contendo um Dashboard Financeiro desenvolvido no Power BI como part
 
 English Version:
 
-# Financial Dashboard - Business Case  
+# Financial Dashboard - Demonstration
 Repository containing a Financial Dashboard developed in Power BI as part of Karine Lago's immersion course. The project provides strategic financial insights.  
 
 ✔ Revenue, Expenses, and Profit  
