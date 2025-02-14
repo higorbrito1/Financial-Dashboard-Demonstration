@@ -1,17 +1,17 @@
-# Dashboard Financeiro - Demonstração
-Repositório contendo um Dashboard Financeiro desenvolvido no Power BI como parte do curso de imersão da Karine Lago. O projeto fornece insights financeiros estratégicos.
+# Dashboard Financeiro - Demonstração  
+Repositório contendo um Dashboard Financeiro desenvolvido no Power BI como parte do curso de imersão da Karine Lago. O projeto fornece insights financeiros estratégicos.  
 
-✔ Receitas, Despesas e Lucro
-✔ Margem de Lucro e Análise de Custos
-✔ Evolução do Faturamento e Tendências
-✔ Power BI (Visualização e Modelagem)
-✔ DAX (Métricas e Cálculos)
-✔ ETL (Tratamento de Dados)
+✔ Receitas, Despesas e Lucro  
+✔ Margem de Lucro e Análise de Custos  
+✔ Evolução do Faturamento e Tendências  
+✔ Power BI (Visualização e Modelagem)  
+✔ DAX (Métricas e Cálculos)  
+✔ ETL (Tratamento de Dados)  
 
 # Estrutura  
-- `datasets/` → Dados brutos
-- `reports/` → Relatórios e dashboards
-- `src/` → Códigos DAX e scripts ETL
+- `datasets/` → Dados brutos  
+- `reports/` → Relatórios e dashboards  
+- `src/` → Códigos DAX e scripts ETL  
 
 English Version:
 
