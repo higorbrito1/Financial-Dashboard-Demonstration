@@ -1,0 +1,2663 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Extratos\",\"Parameter1\",\"Transform Sample File\",\"Sample File\",\"Transform File\",\"CC\",\"Medidas\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.139.2054.0 (24.12)+334ca1c95b576cc53924655643b0d36f21caac55"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "cc": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "CC"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "cc": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "cc.centro_de_custo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "CC",
+                    "ConceptualProperty": "Centro de Custo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "centro de custo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "cc.setor": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "CC",
+                    "ConceptualProperty": "Setor"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "setor": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "extrato": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "extrato": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "extrato.centro_de_custo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos",
+                    "ConceptualProperty": "Centro de Custo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "centro de custo": {
+                      "State": "Generated"
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "extrato.classificação": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos",
+                    "ConceptualProperty": "Classificação"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "classificação": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "extrato.conta_contábil": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos",
+                    "ConceptualProperty": "Conta Contábil"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "conta contábil": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "extrato.data": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos",
+                    "ConceptualProperty": "Data"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "information": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "fact": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "info": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "statistic": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "document": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "figure": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "record": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "extrato.data.date_hierarchy": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos",
+                    "Hierarchy": "Date Hierarchy",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Data"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data date hierarchy": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date hierarchy": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "extrato.data.day": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Day",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Data"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "day": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "information day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "fact day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "info day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "statistic day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "document day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "figure day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "record day": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "extrato.data.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Month",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Data"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "mth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "information month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "fact month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "info month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "statistic month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "document month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "figure month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "record month": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "extrato.data.quarter": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Quarter",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Data"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.833
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.818
+                    }
+                  },
+                  {
+                    "information quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "fact quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "info quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "statistic quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "document quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "figure quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "record quarter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "extrato.data.year": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos",
+                    "Hierarchy": "Date Hierarchy",
+                    "HierarchyLevel": "Year",
+                    "VariationSet": "Variation",
+                    "VariationSource": "Data"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "data year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "data yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "yr": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "information year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "fact year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "info year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "statistic year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "document year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "figure year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "record year": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "extrato.documento_fiscal": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos",
+                    "ConceptualProperty": "Documento Fiscal"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "documento fiscal": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "extrato.saldo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos",
+                    "ConceptualProperty": "Saldo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "saldo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "extrato.status": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos",
+                    "ConceptualProperty": "Status"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "status": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "category": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "importance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "prestige": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "prominence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "condition": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "grade": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "level": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "position": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "extrato.tipo_movimentação": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos",
+                    "ConceptualProperty": "Tipo Movimentação"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "tipo movimentação": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "extrato.valor": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Extratos",
+                    "ConceptualProperty": "Valor"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "valor": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "courage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "bravery": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "heroism": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "fearlessness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "boldness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "gallantry": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "lionheartedness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "pluck": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "spirit": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "nerve": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "medida": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "medida": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.saldo": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Saldo"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "saldo": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.soma_entradas": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Soma Entradas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "soma entradas": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Entradas": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "medida.soma_geral": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Soma Geral"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "soma geral": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "medida.soma_saidas": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Medidas",
+                    "ConceptualProperty": "Soma Saidas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "soma saidas": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Saídas": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "cc_has_centro_de_custo": {
+                "Binding": {
+                  "ConceptualEntity": "CC"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "cc.centro_de_custo"
+                      },
+                      "Subject": {
+                        "Role": "cc"
+                      }
+                    },
+                    "ID": "cc_have_centro_de_custos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "cc": {
+                    "Target": {
+                      "Entity": "cc"
+                    }
+                  },
+                  "cc.centro_de_custo": {
+                    "Target": {
+                      "Entity": "cc.centro_de_custo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "cc_has_setor": {
+                "Binding": {
+                  "ConceptualEntity": "CC"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "cc.setor"
+                      },
+                      "Subject": {
+                        "Role": "cc"
+                      }
+                    },
+                    "ID": "cc_have_setors",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "cc": {
+                    "Target": {
+                      "Entity": "cc"
+                    }
+                  },
+                  "cc.setor": {
+                    "Target": {
+                      "Entity": "cc.setor"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_data_date_hierarchy_has_extrato_data_day": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "extrato.data.day"
+                      },
+                      "Subject": {
+                        "Role": "extrato.data.date_hierarchy"
+                      }
+                    },
+                    "ID": "data_date_hierarchies_have_data_days",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato.data.date_hierarchy": {
+                    "Target": {
+                      "Entity": "extrato.data.date_hierarchy"
+                    }
+                  },
+                  "extrato.data.day": {
+                    "Target": {
+                      "Entity": "extrato.data.day"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_data_date_hierarchy_has_extrato_data_month": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "extrato.data.month"
+                      },
+                      "Subject": {
+                        "Role": "extrato.data.date_hierarchy"
+                      }
+                    },
+                    "ID": "data_date_hierarchies_have_data_months",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato.data.date_hierarchy": {
+                    "Target": {
+                      "Entity": "extrato.data.date_hierarchy"
+                    }
+                  },
+                  "extrato.data.month": {
+                    "Target": {
+                      "Entity": "extrato.data.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_data_date_hierarchy_has_extrato_data_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "extrato.data.quarter"
+                      },
+                      "Subject": {
+                        "Role": "extrato.data.date_hierarchy"
+                      }
+                    },
+                    "ID": "data_date_hierarchies_have_data_quarters",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato.data.date_hierarchy": {
+                    "Target": {
+                      "Entity": "extrato.data.date_hierarchy"
+                    }
+                  },
+                  "extrato.data.quarter": {
+                    "Target": {
+                      "Entity": "extrato.data.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_data_date_hierarchy_has_extrato_data_year": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "extrato.data.year"
+                      },
+                      "Subject": {
+                        "Role": "extrato.data.date_hierarchy"
+                      }
+                    },
+                    "ID": "data_date_hierarchies_have_data_years",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato.data.date_hierarchy": {
+                    "Target": {
+                      "Entity": "extrato.data.date_hierarchy"
+                    }
+                  },
+                  "extrato.data.year": {
+                    "Target": {
+                      "Entity": "extrato.data.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_data_has_date_hierarchy": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "extrato.data.date_hierarchy"
+                      },
+                      "Subject": {
+                        "Role": "extrato.data"
+                      }
+                    },
+                    "ID": "data_have_data_date_hierarchies",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato.data": {
+                    "Target": {
+                      "Entity": "extrato.data"
+                    }
+                  },
+                  "extrato.data.date_hierarchy": {
+                    "Target": {
+                      "Entity": "extrato.data.date_hierarchy"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_has_cc": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "cc"
+                      },
+                      "Subject": {
+                        "Role": "extrato"
+                      }
+                    },
+                    "ID": "extratos_have_cc",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "extrato"
+                      },
+                      "Subject": {
+                        "Role": "cc"
+                      }
+                    },
+                    "ID": "cc_have_extratos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "cc": {
+                    "Target": {
+                      "Entity": "cc"
+                    }
+                  },
+                  "extrato": {
+                    "Target": {
+                      "Entity": "extrato"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_has_classificação": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "extrato.classificação"
+                      },
+                      "Subject": {
+                        "Role": "extrato"
+                      }
+                    },
+                    "ID": "extratos_have_classificaçãos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato": {
+                    "Target": {
+                      "Entity": "extrato"
+                    }
+                  },
+                  "extrato.classificação": {
+                    "Target": {
+                      "Entity": "extrato.classificação"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_has_conta_contábil": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "extrato.conta_contábil"
+                      },
+                      "Subject": {
+                        "Role": "extrato"
+                      }
+                    },
+                    "ID": "extratos_have_conta_contábils",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato": {
+                    "Target": {
+                      "Entity": "extrato"
+                    }
+                  },
+                  "extrato.conta_contábil": {
+                    "Target": {
+                      "Entity": "extrato.conta_contábil"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_has_data": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "extrato.data"
+                      },
+                      "Subject": {
+                        "Role": "extrato"
+                      }
+                    },
+                    "ID": "extratos_have_data",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato": {
+                    "Target": {
+                      "Entity": "extrato"
+                    }
+                  },
+                  "extrato.data": {
+                    "Target": {
+                      "Entity": "extrato.data"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_has_documento_fiscal": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "extrato.documento_fiscal"
+                      },
+                      "Subject": {
+                        "Role": "extrato"
+                      }
+                    },
+                    "ID": "extratos_have_documento_fiscals",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato": {
+                    "Target": {
+                      "Entity": "extrato"
+                    }
+                  },
+                  "extrato.documento_fiscal": {
+                    "Target": {
+                      "Entity": "extrato.documento_fiscal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_has_medida_saldo": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.saldo"
+                      },
+                      "Subject": {
+                        "Role": "extrato"
+                      }
+                    },
+                    "ID": "extratos_have_saldo",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato": {
+                    "Target": {
+                      "Entity": "extrato"
+                    }
+                  },
+                  "medida.saldo": {
+                    "Target": {
+                      "Entity": "medida.saldo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_has_medida_soma_entradas": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.soma_entradas"
+                      },
+                      "Subject": {
+                        "Role": "extrato"
+                      }
+                    },
+                    "ID": "extratos_have_soma_entradas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato": {
+                    "Target": {
+                      "Entity": "extrato"
+                    }
+                  },
+                  "medida.soma_entradas": {
+                    "Target": {
+                      "Entity": "medida.soma_entradas"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_has_medida_soma_geral": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.soma_geral"
+                      },
+                      "Subject": {
+                        "Role": "extrato"
+                      }
+                    },
+                    "ID": "extratos_have_soma_geral",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato": {
+                    "Target": {
+                      "Entity": "extrato"
+                    }
+                  },
+                  "medida.soma_geral": {
+                    "Target": {
+                      "Entity": "medida.soma_geral"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_has_medida_soma_saidas": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.soma_saidas"
+                      },
+                      "Subject": {
+                        "Role": "extrato"
+                      }
+                    },
+                    "ID": "extratos_have_soma_saidas",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato": {
+                    "Target": {
+                      "Entity": "extrato"
+                    }
+                  },
+                  "medida.soma_saidas": {
+                    "Target": {
+                      "Entity": "medida.soma_saidas"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_has_saldo": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "extrato.saldo"
+                      },
+                      "Subject": {
+                        "Role": "extrato"
+                      }
+                    },
+                    "ID": "extratos_have_saldos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato": {
+                    "Target": {
+                      "Entity": "extrato"
+                    }
+                  },
+                  "extrato.saldo": {
+                    "Target": {
+                      "Entity": "extrato.saldo"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_has_status": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "extrato.status"
+                      },
+                      "Subject": {
+                        "Role": "extrato"
+                      }
+                    },
+                    "ID": "extratos_have_statuses",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato": {
+                    "Target": {
+                      "Entity": "extrato"
+                    }
+                  },
+                  "extrato.status": {
+                    "Target": {
+                      "Entity": "extrato.status"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_has_tipo_movimentação": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "extrato.tipo_movimentação"
+                      },
+                      "Subject": {
+                        "Role": "extrato"
+                      }
+                    },
+                    "ID": "extratos_have_tipo_movimentaçãos",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato": {
+                    "Target": {
+                      "Entity": "extrato"
+                    }
+                  },
+                  "extrato.tipo_movimentação": {
+                    "Target": {
+                      "Entity": "extrato.tipo_movimentação"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "extrato_has_valor": {
+                "Binding": {
+                  "ConceptualEntity": "Extratos"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "extrato.valor"
+                      },
+                      "Subject": {
+                        "Role": "extrato"
+                      }
+                    },
+                    "ID": "extratos_have_valor",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "extrato": {
+                    "Target": {
+                      "Entity": "extrato"
+                    }
+                  },
+                  "extrato.valor": {
+                    "Target": {
+                      "Entity": "extrato.valor"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "medida_has_column_1": {
+                "Binding": {
+                  "ConceptualEntity": "Medidas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "medida.column_1"
+                      },
+                      "Subject": {
+                        "Role": "medida"
+                      }
+                    },
+                    "ID": "medidas_have_column_1",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "medida": {
+                    "Target": {
+                      "Entity": "medida"
+                    }
+                  },
+                  "medida.column_1": {
+                    "Target": {
+                      "Entity": "medida.column_1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "Parameter1",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": "#\"Sample File\" meta [IsParameterQuery=true, BinaryIdentifier=#\"Sample File\", Type=\"Binary\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "a9289271-4135-4948-b73e-d83dae51749a",
+        "queryGroup": "Transform File from Extratos\\Helper Queries"
+      },
+      {
+        "name": "Transform Sample File",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Excel.Workbook(Parameter1, null, true),",
+          "    Movimentações_Sheet = Source{[Item=\"Movimentações\",Kind=\"Sheet\"]}[Data],",
+          "    #\"Promoted Headers\" = Table.PromoteHeaders(Movimentações_Sheet, [PromoteAllScalars=true])",
+          "in",
+          "    #\"Promoted Headers\""
+        ],
+        "kind": "m",
+        "lineageTag": "6f12dbba-507f-48fc-9def-39a5b3139500",
+        "queryGroup": "Transform File from Extratos"
+      },
+      {
+        "name": "Sample File",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Binary"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Folder.Files(\"C:\\Users\\Higor\\OneDrive\\Documentos\\GitHub\\Financial-Dashboard-Demonstration\\Dados\\Extratos\"),",
+          "    Navigation1 = Source{0}[Content]",
+          "in",
+          "    Navigation1"
+        ],
+        "kind": "m",
+        "lineageTag": "5cdddfef-376b-4bed-9664-4e201c9e9e17",
+        "queryGroup": "Transform File from Extratos\\Helper Queries"
+      },
+      {
+        "name": "Transform File",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Function"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = (Parameter1) => let",
+          "        Source = Excel.Workbook(Parameter1, null, true),",
+          "        Movimentações_Sheet = Source{[Item=\"Movimentações\",Kind=\"Sheet\"]}[Data],",
+          "        #\"Promoted Headers\" = Table.PromoteHeaders(Movimentações_Sheet, [PromoteAllScalars=true])",
+          "    in",
+          "        #\"Promoted Headers\"",
+          "in",
+          "    Source"
+        ],
+        "kind": "m",
+        "lineageTag": "c7ad9bee-50db-42c9-9097-9c27aa4ec3dc",
+        "mAttributes": "[ FunctionQueryBinding = \"{\"\"exemplarFormulaName\"\":\"\"Transform Sample File\"\"}\" ]",
+        "queryGroup": "Transform File from Extratos\\Helper Queries"
+      }
+    ],
+    "queryGroups": [
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Transform File from Extratos"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Transform File from Extratos\\Helper Queries"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "9b5fae3e-4d29-4d9b-8292-a4f79882c4be",
+        "fromColumn": "Data",
+        "fromTable": "Extratos",
+        "joinOnDateBehavior": "datePartOnly",
+        "toColumn": "Date",
+        "toTable": "LocalDateTable_e9f1fa8d-8e2c-4ab2-9fed-e4a1d9bc0da0"
+      },
+      {
+        "name": "AutoDetected_3c54f520-bbae-41eb-968f-d8710a444888",
+        "fromColumn": "Centro de Custo",
+        "fromTable": "Extratos",
+        "toColumn": "Centro de Custo",
+        "toTable": "CC"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Extratos",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Data",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "55913dd4-3960-4514-a0ca-bd955942925a",
+            "sourceColumn": "Data",
+            "summarizeBy": "none",
+            "variations": [
+              {
+                "name": "Variation",
+                "defaultHierarchy": {
+                  "hierarchy": "Date Hierarchy",
+                  "table": "LocalDateTable_e9f1fa8d-8e2c-4ab2-9fed-e4a1d9bc0da0"
+                },
+                "isDefault": true,
+                "relationship": "9b5fae3e-4d29-4d9b-8292-a4f79882c4be"
+              }
+            ]
+          },
+          {
+            "name": "Conta Contábil",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f5b5e26d-9ee6-4797-8639-25afe3321c2e",
+            "sourceColumn": "Conta Contábil",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Tipo Movimentação",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d45eb198-ab3b-49e0-ae1e-e266dfe3f812",
+            "sourceColumn": "Tipo Movimentação",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Classificação",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "7873028b-42c6-4a5b-9d05-004e7541bd52",
+            "sourceColumn": "Classificação",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Documento Fiscal",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c46364f7-7fc6-4b9e-9990-9b6de3e07c18",
+            "sourceColumn": "Documento Fiscal",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Centro de Custo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "84af196d-215a-4da3-b6f3-01d34d9b869c",
+            "sourceColumn": "Centro de Custo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Status",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d9deb5dd-f256-4201-8ce3-77fd272e8ae5",
+            "sourceColumn": "Status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Valor",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"pt-BR\"}"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+            "lineageTag": "364cd041-0b3e-469a-9268-d004abc533fe",
+            "sourceColumn": "Valor",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Saldo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"pt-BR\"}"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+            "lineageTag": "09d1f37e-34dd-4248-a95b-4cfe95fbe7e3",
+            "sourceColumn": "Saldo",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "0e9532a0-8f20-4378-aca3-ad260d4ee008",
+        "partitions": [
+          {
+            "name": "Extratos",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Folder.Files(\"C:\\Users\\Higor\\OneDrive\\Documentos\\GitHub\\Financial-Dashboard-Demonstration\\Dados\\Extratos\"),",
+                "    #\"Filtered Hidden Files1\" = Table.SelectRows(Source, each [Attributes]?[Hidden]? <> true),",
+                "    #\"Invoke Custom Function1\" = Table.AddColumn(#\"Filtered Hidden Files1\", \"Transform File\", each #\"Transform File\"([Content])),",
+                "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Invoke Custom Function1\", {\"Name\", \"Source.Name\"}),",
+                "    #\"Removed Other Columns1\" = Table.SelectColumns(#\"Renamed Columns1\", {\"Source.Name\", \"Transform File\"}),",
+                "    #\"Expanded Table Column1\" = Table.ExpandTableColumn(#\"Removed Other Columns1\", \"Transform File\", Table.ColumnNames(#\"Transform File\"(#\"Sample File\"))),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Expanded Table Column1\",{{\"Source.Name\", type text}, {\"Data\", type date}, {\"Conta Contábil\", Int64.Type}, {\"Tipo Movimentação\", type text}, {\"Classificação\", type text}, {\"Documento Fiscal\", Int64.Type}, {\"Centro de Custo\", type text}, {\"Status\", type text}, {\"Valor\", type number}, {\"Saldo\", type number}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"Source.Name\"}),",
+                "    #\"Extracted Text After Delimiter\" = Table.TransformColumns(#\"Removed Columns\", {{\"Centro de Custo\", each Text.AfterDelimiter(_, \" \"), type text}}),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Extracted Text After Delimiter\",{{\"Centro de Custo\", Int64.Type}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_6e0fbdf8-cadf-4d1d-8ccd-ed3ce6da35e3",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "fc72efb6-b5a4-4058-8b73-e571b5d990c3",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "0e0e5750-e250-4f2f-a0cd-143ff31a817c",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "ba564fe3-2860-49b9-bdcf-a8383219aadd",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "f2cd49c5-2603-4732-90bf-dfff0a203009",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "5f1b30dc-8dc4-42a7-897a-fe35019d82c6",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "2d91ccf4-de4a-42bd-9ae1-0c6fae53be42",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "576f67ef-a164-4f5e-8e3b-cdb3b1f32868",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "1a1cd327-5aa3-4b46-b263-fe03925d24c1",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "367c748d-ce1e-4eb0-a340-bbdd87e027f0",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "25c0dba4-c50c-46cf-9640-a8e1f342d1aa",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "59a0599a-5d12-46fe-88ec-5aac09f3a277",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "925b97c0-c3d2-4d89-a541-be3b57a64884"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "c1faa2a9-c6ff-4da7-b6c3-8abc643905bc",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_6e0fbdf8-cadf-4d1d-8ccd-ed3ce6da35e3",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_e9f1fa8d-8e2c-4ab2-9fed-e4a1d9bc0da0",
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "6514f153-03ce-4abd-b54a-8bab60574b15",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "89467936-ae48-4f9d-b080-fee1ff279f20",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "84438c13-bcef-4753-b6c5-6344c529141e",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "d59d2a86-586b-4cf2-80bc-245994346d63",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "ae119650-1779-481b-9072-7c22326f6aea",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "b3929925-ca05-49c2-adcb-bbff1305fbaf",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "853de516-d56b-44d0-b9d4-17549a98c7aa",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "9b512298-5f49-49a9-a915-f9a783151282",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "44ceef7e-8c50-41ef-9a3f-25b771876aad",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "99f11fc2-bab0-42bf-9c3a-d01feb5a216f",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "6af47a65-7c11-4060-83e8-cb549c6cff78",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "9f20e02c-7b30-41d9-ad40-ae8c8cb62cd5"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "9c1abdbc-2854-4dd3-8239-455e18c6f996",
+        "partitions": [
+          {
+            "name": "LocalDateTable_e9f1fa8d-8e2c-4ab2-9fed-e4a1d9bc0da0",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(Year(MIN('Extratos'[Data])), 1, 1), Date(Year(MAX('Extratos'[Data])), 12, 31))",
+              "type": "calculated"
+            }
+          }
+        ],
+        "showAsVariationsOnly": true
+      },
+      {
+        "name": "CC",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Centro de Custo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "bc48a971-0fc9-4580-a114-07f71fca5d55",
+            "sourceColumn": "Centro de Custo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Setor",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3821911b-1a75-49e6-a02a-0c60319ad9ee",
+            "sourceColumn": "Setor",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "e2bc0767-3831-4513-9417-d59054a843a1",
+        "partitions": [
+          {
+            "name": "CC",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\Higor\\OneDrive\\Documentos\\GitHub\\Financial-Dashboard-Demonstration\\Dados\\Setores.xlsx\"), null, true),",
+                "    CC_Sheet = Source{[Item=\"CC\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(CC_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Centro de Custo\", Int64.Type}, {\"Setor\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Medidas",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "lineageTag": "648161fc-cef3-4ca7-9c82-561b0752f600",
+        "measures": [
+          {
+            "name": "Soma Saidas",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"pt-BR\"}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    SUM(Extratos[Valor]),",
+              "    Extratos[Tipo Movimentação] = \"Saídas\"",
+              ")",
+              ""
+            ],
+            "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+            "lineageTag": "ce87cfa9-194d-4709-ae18-e8136a0e3c1d"
+          },
+          {
+            "name": "Soma Entradas",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"pt-BR\"}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    SUM(Extratos[Valor]),",
+              "    Extratos[Tipo Movimentação] = \"Entradas\"",
+              ")",
+              ""
+            ],
+            "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+            "lineageTag": "ef049feb-4747-44db-b91e-7538f91a0e9d"
+          },
+          {
+            "name": "Saldo",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"pt-BR\"}"
+              }
+            ],
+            "expression": "SUM(Extratos[Saldo])",
+            "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+            "lineageTag": "d77f6f21-1f25-4ea4-8180-0560dddd3571"
+          },
+          {
+            "name": "Soma Geral",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"pt-BR\"}"
+              }
+            ],
+            "expression": "SUM(Extratos[Valor])",
+            "formatString": "\"R$\"\\ #,0.00;-\"R$\"\\ #,0.00;\"R$\"\\ #,0.00",
+            "lineageTag": "c3ad48f1-cea0-4670-b417-d428a92f3466"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Medidas",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i44FAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Column1\", type text}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"Column1\"})",
+                "in",
+                "    #\"Removed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
